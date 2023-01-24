@@ -26,7 +26,7 @@ void explainList()
     cout<<endl;
     displayList(ls);
 
-    ls.emplace_back(4);
+    ls.emplace_front(); //adds 0 at the front of existing list values - 0 3 1 2
     cout<<endl;
     displayList(ls);
 
