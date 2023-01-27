@@ -12,7 +12,7 @@ int main()
         cout<<"\n---------------------"<<endl;
         cout<<"1.Insert Element into the Priority Queue"<<endl;
         cout<<"2.Delete Element from the Priority Queue"<<endl;
-	cout<<"3.Size of the Priority Queue"<<endl;
+	    cout<<"3.Size of the Priority Queue"<<endl;
         cout<<"4.Top Element of the Priority Queue"<<endl;
         cout<<"5.Exit"<<endl;
         cout<<"Enter your Choice: ";
@@ -38,7 +38,7 @@ int main()
             break;
         case 3:
             cout<<"Size of the Queue: ";
-	    cout<<pq.size()<<endl;
+	        cout<<pq.size()<<endl;
             break;
         case 4:
             cout<<"Top Element of the Queue: ";
