@@ -14,7 +14,7 @@ int main()
         cout<<"\n---------------------"<<endl;
         cout<<"1.Insert Element into the Map"<<endl;
         cout<<"2.Delete Element of the Map"<<endl;
-	cout<<"3.Size of the Map"<<endl;
+	    cout<<"3.Size of the Map"<<endl;
         cout<<"4.Find Element at a key in Map"<<endl;
         cout<<"5.Dislplay by Iterator"<<endl;
         cout<<"6.Count Elements at a specific key"<<endl;

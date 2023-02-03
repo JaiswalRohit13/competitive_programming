@@ -5,12 +5,14 @@ int main ()
 {
     multimap<char, int> mymm;
     multimap<char, int>::iterator it;
+    
     mymm.insert (pair<char, int>('x', 100));
     mymm.insert (pair<char, int>('y', 200));
     mymm.insert (pair<char, int>('y', 300));
     mymm.insert (pair<char, int>('y', 400));
     mymm.insert (pair<char, int>('z', 500));
     mymm.insert (pair<char, int>('z', 500));
+
     cout<<"Size of the multimap: "<< mymm.size() <<endl;
     cout << "Multimap contains:\n";
     for (it = mymm.begin(); it != mymm.end(); ++it)
