@@ -14,9 +14,9 @@ int main()
 
     for(i=1;i<=5;i++)
     {
-        for(j=1;j<=5;j++)
+        for(j=0; j<=5-i; j++)
         {
-            (j<=5-i)?cout<<" ":cout<<"*";
+                cout<<"*";
         }
         cout<<endl;
     }
