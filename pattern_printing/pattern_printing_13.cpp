@@ -9,16 +9,21 @@ using namespace std;
 
 int main()
 {
-    int i,j,k=0,rows;
-    cout<<"Enter the number of rows"<<endl;
-    cin>>rows;
-    for(i=1; i<=rows ;i++)
+    int i,j,k=0;
+    for(i=1; i<=4 ;i++)
     {
         k=i;
-        for(j=1; j<=rows+i; j++)
+        for(j=1; j<=i+3 ; j++)
         {
-            (j>=rows-i)?cout<<k:cout<<" ";
-            (j<=rows)?k++:k--;
+            if(j<=4-i)
+            {
+                cout<<" ";
+            }
+            else
+            {
+                cout<<k;
+                (j<4)?k++:k--;
+            }
         }
         cout<<endl;
     }
