@@ -21,13 +21,13 @@ int main()
     {
         for(j=1; j<=9 ; j++)
         {
-            if()
+            if(i+j <=6 || j-i >=4 || i-j>=4 || i+j >=14)
             {
-                cout<<" ";
+                cout<<"*";
             }
             else
             {
-                cout<<"*";
+                cout<<" ";
             }
         }
         cout<<endl;
