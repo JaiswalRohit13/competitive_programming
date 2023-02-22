@@ -27,15 +27,15 @@ using namespace std;
 
 int main()
 {
-    int i,j;
+    int i,j,k=0,c=0;
 
     for(i=1;i<=21;i++)
     {
-        for(j=1;j<=7;j++)
+        for(j=1; j<=10+i; j++)
         {
-            if()
+            if((i<=11) && (i+j>11) || (i>11) && (i-j<=10 && ))
             {
-                cout<<"*";
+                cout<<"8";
             }
             else
                 cout<<" ";
