@@ -16,6 +16,6 @@ int main(){
 
     a=10,b=20;
     cout<<"a<<2 = " << (a<<2) << endl; //left shift = *2 *2 (multiplication stands true for small numbers only)
-    cout<<"b>>2 = " << (b>>3) << endl; //right shift = /2/2/2 (divison stands true for small numbers only)
+    cout<<"b>>2 = " << (b>>3) << endl; //right shift = /2/2/2 (divison stands true for small numbers only
 
 }
