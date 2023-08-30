@@ -1,14 +1,14 @@
-#include <iostream>
+#include <bits\stdc++.h>
 using namespace std;
 
 int main(){
 
     //biwise and or not and xor
-    int a = 4, b=6;
+    int a = 17, b=9;
 
     cout<< "a & b = "<< (a&b) <<endl;
     cout<< "a | b = "<< (a|b) <<endl;
-    cout<< "~a = "<< ~a <<endl;
+    cout<< "~a = "<< (~a) <<endl;
     cout<< "a ^ b = "<< (a^b) <<endl;
 
     //left and right shift operator - bitwise operation
