@@ -4,7 +4,7 @@ using namespace std;
 int main(){
 
     //biwise and or not and xor
-    int a = 17, b=9;
+    int a = 17, b=5;
 
     cout<< "a & b = "<< (a&b) <<endl;
     cout<< "a | b = "<< (a|b) <<endl;
@@ -14,8 +14,10 @@ int main(){
     //left and right shift operator - bitwise operation
     //padding by 0 in positive number - compiler dependent padding in negative number
 
-    a=10,b=20;
-    cout<<"a<<2 = " << (a<<2) << endl; //left shift = *2 *2 (multiplication stands true for small numbers only)
-    cout<<"b>>2 = " << (b>>3) << endl; //right shift = /2/2/2 (divison stands true for small numbers only
+    a=17,b=5;
+    cout<<"a<<5 = " << (a<<5) << endl; //left shift = *2 *2 (multiplication stands true for small numbers only)
+    cout<<"a>>4 = " << (a>>4) << endl;
+    cout<<"a>>5 = " << (a>>5) << endl;
+    cout<<"a>>6 = " << (a>>6) << endl; //right shift = /2/2/2 (divison stands true for small numbers only
 
 }
