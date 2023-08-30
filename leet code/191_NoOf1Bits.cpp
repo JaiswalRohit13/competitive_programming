@@ -1,21 +1,23 @@
-class Solution {
-public:
-    int hammingWeight(uint32_t n) {
-        int c=0;
-        while(n!=0)
-        {
-            if(n & 1)
-                c++;
-            n = n >> 1;
-        }
-        return c;
+#include <bits\stdc++.h>
+using namespace std;
+
+int hammingWeight(uint32_t n) {
+    int c=0;
+    while(n!=0)
+    {
+        if(n & 1)
+            c++;
+        n = n >> 1;
     }
-};
+    return c;
+}
+int main()
+{
+    cout<<"Number of 1 bits in 145 = "<<hammingWeight(145);
+    return 0;
+}
 
 // 191. Number of 1 Bits
-// Easy
-// 5.7K
-// 1.2K
 
 // Write a function that takes the binary representation of an unsigned integer and returns the number of '1' bits it has (also known as the Hamming weight).
 
