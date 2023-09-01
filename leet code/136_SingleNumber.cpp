@@ -1,26 +1,24 @@
 //approach 1 - using xor - constant space 
 
-class Solution {
-public:
-    int singleNumber(vector<int>& nums) { 
+int singleNumber(vector<int>& nums) { 
         int ans=0;
         for(auto x:nums)
         ans^=x;
         return ans;
     }
-};
 
+    
 // approach 2 - using sorting - constant space
-    // sort(nums.begin(),nums.end());
-    // int it;
-    // for(it =1;it< nums.size();it+=2)
-    // {
-    //     if(nums[it] != nums[it-1])
-    //     {
-    //         return nums[it-1];
-    //     }
-    // }
-    // return nums[nums.size() - 1];
+//     sort(nums.begin(),nums.end());
+//     int it;
+//     for(it =1;it< nums.size();it+=2)
+//     {
+//         if(nums[it] != nums[it-1])
+//         {
+//             return nums[it-1];
+//         }
+//     }
+//     return nums[nums.size() - 1];
 
 
 
